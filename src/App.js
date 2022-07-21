@@ -10,9 +10,9 @@ import Detail from "./pages/detail/Detail";
 import Home from "./pages/Home";
 import Layout from './components/Layout'
 // import HeroSlide from './components/hero-slide/HeroSlide';
-import MovieList from './components/movie-list/MovieList';
-import MovieCard from './components/movie-card/MovieCard';
-import MovieGrid from './components/movie-grid/MovieGrid';
+// import MovieList from './components/movie-list/MovieList';
+// import MovieCard from './components/movie-card/MovieCard';
+// import MovieGrid from './components/movie-grid/MovieGrid';
 
 function App() {
     return (
