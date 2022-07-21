@@ -3,7 +3,7 @@ import React from 'react';
 import './movie-card.scss';
 
 import { Link } from 'react-router-dom';
-import { OutlineButton } from '../button/Button';
+// import { OutlineButton } from '../button/Button';
 import Button from '../button/Button';
 import { category } from '../../api/tmdbApi';
 import apiConfig from '../../api/apiConfig';

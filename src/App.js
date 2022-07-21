@@ -1,8 +1,10 @@
-/* eslint-disable react/jsx-no-undef */
 // import 'swiper/swiper.min.css';
 import './assets/boxicons-2.0.7/css/boxicons.min.css';
 import './App.scss';
-
+import 'swiper/css/bundle';
+// import 'swiper/css';
+// import 'swiper/css/navigation';
+// import 'swiper/css/pagination';
 import {Route, Routes } from 'react-router-dom';
 
 import Catalog from "./pages/Catalog";
