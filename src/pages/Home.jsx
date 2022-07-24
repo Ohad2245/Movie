@@ -51,7 +51,6 @@ const Home = () => {
                     </div>
                     <MovieList category={category.tv} type={tvType.top_rated}/>
                 </div>
-                
             </div>
         </>
     );

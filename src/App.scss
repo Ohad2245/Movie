@@ -23,7 +23,7 @@ html {
 
 body {
     font-family: $font-family;
-    font-weight: 400;
+    font-weight: 100;
     line-height: 1.5;
 
     background-color: $body-bg;
@@ -69,14 +69,19 @@ iframe {
 
 .mb-3 {
     margin-bottom: 3rem;
+    font-weight: 100;
 }
 
 .mb-2 {
     margin-bottom: 2rem;
+    font-weight: 100;
+
 }
 
 .section {
     padding: 0 2rem;
+    font-weight: 100;
+
 }
 
 .section__header {

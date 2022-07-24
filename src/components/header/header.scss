@@ -2,7 +2,7 @@
 
 .logo {
     font-size: 2.5rem;
-    font-weight: 600;
+    font-weight: 100;
 
     @include flex(center, unset);
 
@@ -25,6 +25,8 @@
     width: 100%;
     z-index: 99;
     transition: height 0.3s ease, background-color 0.3s ease;
+    font-weight: 100;
+
 
     &.shrink {
         height: $header-shrink-height;
@@ -50,7 +52,7 @@
 
         li {
             padding: 5px 0;
-            font-weight: 700;
+            font-weight: 100;
             position: relative;
             font-size: 1.5rem;
 
