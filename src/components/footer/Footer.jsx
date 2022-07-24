@@ -5,7 +5,7 @@ import {BsGithub} from 'react-icons/bs'
 import {BsLinkedin} from 'react-icons/bs'
 import './footer.scss';
 
-import { Link,Route ,Routes} from 'react-router-dom';
+import {Route ,Routes} from 'react-router-dom';
 
 import bg from '../../assets/footer-bg.jpg';
 // import logo from '../../assets/tmovie.png';
