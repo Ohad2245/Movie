@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect, useCallback } from 'react';
 import { useParams } from 'react-router';
 import { useNavigate} from 'react-router-dom';
@@ -10,7 +11,7 @@ import Input from '../input/Input';
 
 import tmdbApi, { category, movieType, tvType } from '../../api/tmdbApi';
 
-const MovieGrid = props => {
+const MovieGrid= props => {
 
     const [items, setItems] = useState([]);
 
