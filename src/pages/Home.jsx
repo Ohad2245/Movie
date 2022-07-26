@@ -6,6 +6,8 @@ import HeroSlide from '../components/hero-slide/HeroSlide';
 import MovieList from '../components/movie-list/MovieList';
 
 import { category, movieType, tvType } from '../api/tmdbApi';
+// import Footer from '../components/footer/Footer';
+import Nav from '../components/nav/Nav';
 
 const Home = () => {
     return (
@@ -51,7 +53,9 @@ const Home = () => {
                     </div>
                     <MovieList category={category.tv} type={tvType.top_rated}/>
                 </div>
+                <Nav/>
             </div>
+            
         </>
     );
 }

@@ -5,6 +5,7 @@ import {RiMessengerLine} from 'react-icons/ri';
 import {BsWhatsapp} from 'react-icons/bs';
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
+import Footer from '../footer/Footer';
 
 const Contact = () => {
   const form = useRef();

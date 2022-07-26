@@ -15,11 +15,13 @@ import Layout from './components/Layout'
 // import MovieList from './components/movie-list/MovieList';
 // import MovieCard from './components/movie-card/MovieCard';
 // import MovieGrid from './components/movie-grid/MovieGrid';
+// import Login from './components/login/Login';
 
 function App() {
     return (
       <Routes>
         <Route path="/" element={<Layout/>}>
+          {/* <Route index element={<Home/>} /> */}
           <Route index element={<Home/>} />
             <Route path="/:category/search/:keyword" element={<Catalog />}/>
              <Route path="/movie" element={<Catalog/>}/>
