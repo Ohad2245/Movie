@@ -13,7 +13,7 @@ import tmdbApi, { category } from '../../api/tmdbApi';
 // import apiConfig from '../../api/apiConfig';
 
 import MovieCard from '../movie-card/MovieCard';
-import Header from '../header/Header';
+// import Header from '../header/Header';
 
 const MovieList = props => {
 
