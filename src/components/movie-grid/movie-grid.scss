@@ -22,17 +22,19 @@
 
     input {
         width: 100%;
-        padding-right: 8rem;
+        height:20px;
+        // padding-right: 5rem;
     }
 
     button {
         position: absolute;
-        right: 0;
-        top: 2px;
+        right: 17px;
+        // left: 75%;
+        top: 9px;
 
         @include mobile {
-            right: 1px;
-            top: 1px;
+            right: 17px;
+            top: 7px;
         }
     }
 }

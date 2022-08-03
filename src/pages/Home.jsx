@@ -8,6 +8,7 @@ import MovieList from '../components/movie-list/MovieList';
 import { category, movieType, tvType } from '../api/tmdbApi';
 // import Footer from '../components/footer/Footer';
 import Nav from '../components/nav/Nav';
+import '././home.scss';
 
 const Home = () => {
     return (
@@ -55,7 +56,6 @@ const Home = () => {
                 </div>
                 <Nav/>
             </div>
-            
         </>
     );
 }
