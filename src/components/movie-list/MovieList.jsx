@@ -38,7 +38,8 @@ const MovieList = props => {
             setItems(response.results);
         }
         getList();
-    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    },[]);
 
     return (
         <div className="movie-list">
